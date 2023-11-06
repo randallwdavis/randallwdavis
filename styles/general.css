@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+}
+
+.topText, .bottomText{
+  margin: 0px;
+  padding: 10px;
+  line-height: 55px;
+  background-color: rgb(82, 82, 82);
+}
+
+.kitty{
+  width: 300px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background {
+  display:flex;
+  background-image: url(../images/background.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: xx-large;
+  font-family: Arial;
+}
+
