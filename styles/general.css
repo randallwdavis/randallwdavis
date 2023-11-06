@@ -37,3 +37,14 @@ html {
   font-family: Arial;
 }
 
+@media (max-width: 620px) {
+  .caption{
+    font-size: x-large;
+  }
+  .topText, .bottomText{
+    margin: 0px;
+    padding: 10px;
+    line-height: 40px;
+    background-color: rgb(82, 82, 82);
+  }
+}
